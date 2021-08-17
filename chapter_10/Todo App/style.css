@@ -1,0 +1,23 @@
+body{
+    background: purple
+}
+.container{
+ max-width: 400px;    
+}
+input[type=text],
+input[type=text]:focus{
+    background: blueviolet;
+    color: white;
+    border: none;
+    max-width: 400px;
+
+}
+.todos li{
+    background-color: whitesmoke;
+}
+.delete{
+    cursor: pointer;
+}
+.filtered{
+    display: none !important;
+}

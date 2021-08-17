@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/774093d32b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center text-light m-auto">
+            <h1  class="mb-4">Todo List</h1>
+            <form class="search">
+                <input class="form-control m-auto" type="text" name="search" placeholder="search todo">
+            </form>
+     
+        </header>
+     
+     <ul class="todos list-group m-auto text-light">
+         <li class="list-group-item d-flex justify-content-between align-items-center">
+             <span >Buy milk</span>
+             <i class="far fa-trash-alt delete"></i>
+         </li>
+         <li class="list-group-item d-flex justify-content-between align-items-center">
+             <span >reading books</span>
+             <i class="far fa-trash-alt delete"></i>
+         </li>
+         <li class="list-group-item d-flex justify-content-between align-items-center">
+             <span >watching movies</span>
+             <i class="far fa-trash-alt delete"></i>
+         </li>
+         <li class="list-group-item d-flex justify-content-between align-items-center">
+             <span >selling watches</span>
+             <i class="far fa-trash-alt delete"></i>
+         </li>
+     </ul>
+     <form class="add text-center my-4" id="add"> 
+         <label class="text-light">Add new todo</label>
+         <input class="form-control m-auto" type="text" name="add" >
+     </form>  
+     
+     
+     </div>
+     </html>
+
+<script src="Todo.js"></script> 
+</body>
